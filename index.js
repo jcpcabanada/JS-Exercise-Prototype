@@ -112,10 +112,10 @@ Baby.prototype.play = function(){
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. When console.log(this), it will return the WHOLE javascript window.
+  2. when 'this' is used that object or key can be directly referenced/called. This is called Implicit Binding. 
+  3. 'this' used in a functions can be able to create new objects mainly in Contructor Functions.
+  4. when this is defined using '.call' or '.apply'
 */
 
 
